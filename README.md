@@ -1,50 +1,32 @@
-# Welcome to your Expo app 👋
+# NativeFusion
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A versatile React Native starter template which includes pre-configured essential tools and features.
 
-## Get started
+---
 
-1. Install dependencies
+## Features
 
-   ```bash
-   npm install
-   ```
+### Authentication
 
-2. Start the app
+- **Clerk Integration**: Pre-configured authentication with Clerk for managing user sessions and identity.
 
-   ```bash
-    npx expo start
-   ```
+### Styling
 
-In the output, you'll find options to open the app in a
+- **NativeWind**: Tailwind-style utility classes optimized for React Native.
+- **Built-in Poppins Font**: Pre-installed Poppins font for consistent and professional typography.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### State Management
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- **Zustand**: Lightweight and flexible global state management.
 
-## Get a fresh project
+### Storage
 
-When you're ready, run:
+- **MMKV**: High-performance and efficient storage for caching and state persistence.
 
-```bash
-npm run reset-project
-```
+### Utilities
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- **Location Initialization**: Utility functions to fetch and manage device location using pre-configured permissions and handlers.
 
-## Learn more
+### UI Components
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- **Pre-written UI Components**: A collection of reusable and customizable UI components stored under `components/ui`.
