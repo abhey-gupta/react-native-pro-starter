@@ -1,5 +1,3 @@
-# NativeFusion
-
 A versatile React Native starter template which includes pre-configured essential tools and features.
 
 ---
